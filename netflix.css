@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    gap: 50px;
+    position: fixed;
+    background-color: #141414;
+}
+
+.leftnav img {
+    height: 45px;
+    width: 100px;
+}
+
+.middlenav nav {
+    display: flex;
+    gap: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-left: 80px;
+    color: white;
+    margin-top: 2%;
+}
+
+.rightnav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 20%;
+    color: white;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: #141414;
+    overflow: hidden; 
+}
+
+.videocontainer {
+    height: 50vh;
+    width: 100%;
+    padding-top: 3%;
+}
+
+.video-overlay {
+    background-image: url(https://4kwallpapers.com/images/wallpapers/stranger-things-2560x1080-18568.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    padding-top: 8%;
+}
+
+.video-overlay h1 {
+    font-size: 40px;
+    color: white;
+    padding-top: 1%;
+
+}
+
+.video-overlay button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
+
+.firsttext {
+    padding-top: 4%;
+    font-size: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.secondtext {
+    font-size: 23px;
+    color: white;
+    padding-top: 1%;
+}
+
+.thirdtext {
+    padding-top: 1%;
+
+    font-size: 15px;
+    color: white;
+}
+
+.caption1 {
+    padding-top: 20%;
+    color: white;
+}
+
+.caption {
+    padding-top: 4%;
+    color: white;
+}
+
+.maincontentbox {
+    display: flex;
+    height: 100%;
+    width: 2500px;
+    gap: 20px;
+}
+
+.contentbox1 {
+    height: 150px;
+    width: 70%;
+    border-radius: 25px;
+    object-fit: cover;
+    background-color: crimson;
+}
+
+.contentbox2 {
+    height: 150px;
+    width: 70%;
+    border-radius: 25px;
+    object-fit: cover;
+    background-color: crimson;
+}
+
+.contentbox3 {
+    height: 150px;
+    width: 70%;
+    border-radius: 25px;
+    object-fit: cover;
+    background-color: crimson;
+}
+
+.contentbox4 {
+    height: 150px;
+    width: 70%;
+    border-radius: 25px;
+    object-fit: cover;
+    background-color: crimson;
+}
+
+.contentbox5 {
+    height: 150px;
+    width: 70%;
+    border-radius: 25px;
+    background-color: crimson;
+}
+
+.contentbox6 {
+    height: 150px;
+    width: 70%;
+    border-radius: 25px;
+    background-color: crimson;
+}
+
+.contentbox7 {
+    height: 150px;
+    width: 70%;
+    border-radius: 25px;
+    background-color: crimson;
+}
+
+.contentbox8 {
+    height: 150px;
+    width: 70%;
+    border-radius: 25px;
+    background-color: crimson;
+}
+
+.contentbox1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+
+}
+
+.contentbox2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+
+}
